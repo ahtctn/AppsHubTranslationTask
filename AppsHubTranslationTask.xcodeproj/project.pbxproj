@@ -8,17 +8,53 @@
 
 /* Begin PBXBuildFile section */
 		7B3322292B330FA400232580 /* AppsHubTranslationTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3322282B330FA400232580 /* AppsHubTranslationTaskApp.swift */; };
-		7B33222B2B330FA400232580 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B33222A2B330FA400232580 /* ContentView.swift */; };
 		7B33222D2B330FA600232580 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B33222C2B330FA600232580 /* Assets.xcassets */; };
 		7B3322302B330FA600232580 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B33222F2B330FA600232580 /* Preview Assets.xcassets */; };
+		7B3322372B33149D00232580 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3322362B33149D00232580 /* HomeView.swift */; };
+		7B33223D2B33152F00232580 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B33223C2B33152F00232580 /* TextView.swift */; };
+		7B33223F2B33153300232580 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B33223E2B33153300232580 /* CameraView.swift */; };
+		7B3322412B33153700232580 /* VoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3322402B33153700232580 /* VoiceView.swift */; };
+		7B3322432B33153C00232580 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3322422B33153C00232580 /* SettingsView.swift */; };
+		7B33224D2B331DA300232580 /* NavFavButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B33224C2B331DA300232580 /* NavFavButtonView.swift */; };
+		7B33224F2B331E1800232580 /* NavHistoryButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B33224E2B331E1800232580 /* NavHistoryButtonView.swift */; };
+		7B3322522B33221700232580 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3322512B33221700232580 /* Constants.swift */; };
+		7B3322572B33266600232580 /* CustomTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3322562B33266600232580 /* CustomTextFieldView.swift */; };
+		7B3322592B333BCB00232580 /* ChooseLanguageButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3322582B333BCB00232580 /* ChooseLanguageButtonView.swift */; };
+		7B33225B2B333D0600232580 /* ChangeLanguagesButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B33225A2B333D0600232580 /* ChangeLanguagesButtonView.swift */; };
+		7B33225E2B333FB200232580 /* LanguageSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B33225D2B333FB200232580 /* LanguageSelectionView.swift */; };
+		7B3322602B33424C00232580 /* OfflineModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B33225F2B33424C00232580 /* OfflineModeView.swift */; };
+		7B3322632B334F6A00232580 /* TranslateButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3322622B334F6A00232580 /* TranslateButtonView.swift */; };
+		7B3322652B335E4700232580 /* LanguageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3322642B335E4700232580 /* LanguageModel.swift */; };
+		7B3322672B335E7000232580 /* LanguageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3322662B335E7000232580 /* LanguageViewModel.swift */; };
+		7B3322692B3360E300232580 /* LanguageListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3322682B3360E300232580 /* LanguageListView.swift */; };
+		7B7212E02B3369FF00C4C78B /* LanguageListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7212DF2B3369FF00C4C78B /* LanguageListCellView.swift */; };
+		7B7212E22B336E9600C4C78B /* KeyboardObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7212E12B336E9600C4C78B /* KeyboardObserver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7B3322252B330FA400232580 /* AppsHubTranslationTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppsHubTranslationTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B3322282B330FA400232580 /* AppsHubTranslationTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsHubTranslationTaskApp.swift; sourceTree = "<group>"; };
-		7B33222A2B330FA400232580 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7B33222C2B330FA600232580 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B33222F2B330FA600232580 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7B3322362B33149D00232580 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7B33223C2B33152F00232580 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		7B33223E2B33153300232580 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		7B3322402B33153700232580 /* VoiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceView.swift; sourceTree = "<group>"; };
+		7B3322422B33153C00232580 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		7B33224C2B331DA300232580 /* NavFavButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavFavButtonView.swift; sourceTree = "<group>"; };
+		7B33224E2B331E1800232580 /* NavHistoryButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavHistoryButtonView.swift; sourceTree = "<group>"; };
+		7B3322512B33221700232580 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7B3322562B33266600232580 /* CustomTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldView.swift; sourceTree = "<group>"; };
+		7B3322582B333BCB00232580 /* ChooseLanguageButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseLanguageButtonView.swift; sourceTree = "<group>"; };
+		7B33225A2B333D0600232580 /* ChangeLanguagesButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeLanguagesButtonView.swift; sourceTree = "<group>"; };
+		7B33225D2B333FB200232580 /* LanguageSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageSelectionView.swift; sourceTree = "<group>"; };
+		7B33225F2B33424C00232580 /* OfflineModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineModeView.swift; sourceTree = "<group>"; };
+		7B3322622B334F6A00232580 /* TranslateButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateButtonView.swift; sourceTree = "<group>"; };
+		7B3322642B335E4700232580 /* LanguageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageModel.swift; sourceTree = "<group>"; };
+		7B3322662B335E7000232580 /* LanguageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageViewModel.swift; sourceTree = "<group>"; };
+		7B3322682B3360E300232580 /* LanguageListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageListView.swift; sourceTree = "<group>"; };
+		7B7212DF2B3369FF00C4C78B /* LanguageListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageListCellView.swift; sourceTree = "<group>"; };
+		7B7212E12B336E9600C4C78B /* KeyboardObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardObserver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +87,11 @@
 		7B3322272B330FA400232580 /* AppsHubTranslationTask */ = {
 			isa = PBXGroup;
 			children = (
-				7B3322282B330FA400232580 /* AppsHubTranslationTaskApp.swift */,
-				7B33222A2B330FA400232580 /* ContentView.swift */,
+				7B3322502B33220C00232580 /* Supporters */,
+				7B33223B2B33151700232580 /* Model */,
+				7B33223A2B33151400232580 /* ViewModel */,
+				7B3322392B33151200232580 /* View */,
+				7B3322382B3314EE00232580 /* App */,
 				7B33222C2B330FA600232580 /* Assets.xcassets */,
 				7B33222E2B330FA600232580 /* Preview Content */,
 			);
@@ -65,6 +104,101 @@
 				7B33222F2B330FA600232580 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7B3322382B3314EE00232580 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7B3322282B330FA400232580 /* AppsHubTranslationTaskApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7B3322392B33151200232580 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7B3322452B33156600232580 /* SuperView */,
+				7B3322442B33156000232580 /* Subviews */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7B33223A2B33151400232580 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7B3322662B335E7000232580 /* LanguageViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7B33223B2B33151700232580 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7B3322642B335E4700232580 /* LanguageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7B3322442B33156000232580 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				7B33223C2B33152F00232580 /* TextView.swift */,
+				7B3322462B331D6200232580 /* TextViewSubviews */,
+				7B33223E2B33153300232580 /* CameraView.swift */,
+				7B3322402B33153700232580 /* VoiceView.swift */,
+				7B3322422B33153C00232580 /* SettingsView.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		7B3322452B33156600232580 /* SuperView */ = {
+			isa = PBXGroup;
+			children = (
+				7B3322362B33149D00232580 /* HomeView.swift */,
+			);
+			path = SuperView;
+			sourceTree = "<group>";
+		};
+		7B3322462B331D6200232580 /* TextViewSubviews */ = {
+			isa = PBXGroup;
+			children = (
+				7B3322492B331D7A00232580 /* NavigationBarButtonItemsViews */,
+				7B3322562B33266600232580 /* CustomTextFieldView.swift */,
+				7B3322582B333BCB00232580 /* ChooseLanguageButtonView.swift */,
+				7B33225A2B333D0600232580 /* ChangeLanguagesButtonView.swift */,
+				7B33225D2B333FB200232580 /* LanguageSelectionView.swift */,
+				7B33225F2B33424C00232580 /* OfflineModeView.swift */,
+				7B3322622B334F6A00232580 /* TranslateButtonView.swift */,
+				7B3322682B3360E300232580 /* LanguageListView.swift */,
+				7B7212DE2B3369E800C4C78B /* LanguageListCellView */,
+			);
+			path = TextViewSubviews;
+			sourceTree = "<group>";
+		};
+		7B3322492B331D7A00232580 /* NavigationBarButtonItemsViews */ = {
+			isa = PBXGroup;
+			children = (
+				7B33224C2B331DA300232580 /* NavFavButtonView.swift */,
+				7B33224E2B331E1800232580 /* NavHistoryButtonView.swift */,
+			);
+			path = NavigationBarButtonItemsViews;
+			sourceTree = "<group>";
+		};
+		7B3322502B33220C00232580 /* Supporters */ = {
+			isa = PBXGroup;
+			children = (
+				7B3322512B33221700232580 /* Constants.swift */,
+				7B7212E12B336E9600C4C78B /* KeyboardObserver.swift */,
+			);
+			path = Supporters;
+			sourceTree = "<group>";
+		};
+		7B7212DE2B3369E800C4C78B /* LanguageListCellView */ = {
+			isa = PBXGroup;
+			children = (
+				7B7212DF2B3369FF00C4C78B /* LanguageListCellView.swift */,
+			);
+			path = LanguageListCellView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +271,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B33222B2B330FA400232580 /* ContentView.swift in Sources */,
+				7B33224D2B331DA300232580 /* NavFavButtonView.swift in Sources */,
+				7B3322412B33153700232580 /* VoiceView.swift in Sources */,
+				7B33223D2B33152F00232580 /* TextView.swift in Sources */,
+				7B3322672B335E7000232580 /* LanguageViewModel.swift in Sources */,
+				7B3322652B335E4700232580 /* LanguageModel.swift in Sources */,
+				7B7212E02B3369FF00C4C78B /* LanguageListCellView.swift in Sources */,
+				7B3322572B33266600232580 /* CustomTextFieldView.swift in Sources */,
+				7B33224F2B331E1800232580 /* NavHistoryButtonView.swift in Sources */,
+				7B33225E2B333FB200232580 /* LanguageSelectionView.swift in Sources */,
+				7B3322632B334F6A00232580 /* TranslateButtonView.swift in Sources */,
+				7B7212E22B336E9600C4C78B /* KeyboardObserver.swift in Sources */,
+				7B3322372B33149D00232580 /* HomeView.swift in Sources */,
+				7B33225B2B333D0600232580 /* ChangeLanguagesButtonView.swift in Sources */,
+				7B3322432B33153C00232580 /* SettingsView.swift in Sources */,
 				7B3322292B330FA400232580 /* AppsHubTranslationTaskApp.swift in Sources */,
+				7B33223F2B33153300232580 /* CameraView.swift in Sources */,
+				7B3322692B3360E300232580 /* LanguageListView.swift in Sources */,
+				7B3322592B333BCB00232580 /* ChooseLanguageButtonView.swift in Sources */,
+				7B3322522B33221700232580 /* Constants.swift in Sources */,
+				7B3322602B33424C00232580 /* OfflineModeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

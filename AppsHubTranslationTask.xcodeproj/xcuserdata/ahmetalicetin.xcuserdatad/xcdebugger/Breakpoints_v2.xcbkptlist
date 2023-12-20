@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "D301928D-E1CD-4300-AA93-75CF17641CF8"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F302C46B-383E-44C0-94F7-1350B4A61775"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppsHubTranslationTask/View/Subviews/TextViewSubviews/TranslateButtonView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CC2DBBD4-45DF-4889-B424-01299C71CC68"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppsHubTranslationTask/Supporters/KeyboardObserver.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "KeyboardObserver"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "CC2DBBD4-45DF-4889-B424-01299C71CC68 - 646b741cc9c3f30b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of AppsHubTranslationTask.KeyboardObserver.isKeyboardVisible : Swift.Bool"
+                  moduleName = "AppsHubTranslationTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmetalicetin/Desktop/Swift/AppsHubTranslationTask/AppsHubTranslationTask/AppsHubTranslationTask/Supporters/KeyboardObserver.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "CC2DBBD4-45DF-4889-B424-01299C71CC68 - b219bf15c435a9da"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppsHubTranslationTask.KeyboardObserver.isKeyboardVisible.getter : Swift.Bool"
+                  moduleName = "AppsHubTranslationTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmetalicetin/Desktop/Swift/AppsHubTranslationTask/AppsHubTranslationTask/AppsHubTranslationTask/Supporters/KeyboardObserver.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "CC2DBBD4-45DF-4889-B424-01299C71CC68 - ea8417a1e20477ba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppsHubTranslationTask.KeyboardObserver.isKeyboardVisible.setter : Swift.Bool"
+                  moduleName = "AppsHubTranslationTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmetalicetin/Desktop/Swift/AppsHubTranslationTask/AppsHubTranslationTask/AppsHubTranslationTask/Supporters/KeyboardObserver.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "CC2DBBD4-45DF-4889-B424-01299C71CC68 - 4aa555a789529ab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppsHubTranslationTask.KeyboardObserver.isKeyboardVisible.modify : Swift.Bool"
+                  moduleName = "AppsHubTranslationTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmetalicetin/Desktop/Swift/AppsHubTranslationTask/AppsHubTranslationTask/AppsHubTranslationTask/Supporters/KeyboardObserver.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "CC2DBBD4-45DF-4889-B424-01299C71CC68 - 55e7a9e3a9ccc546"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppsHubTranslationTask.KeyboardObserver.isKeyboardVisible.modify : Swift.Bool with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "AppsHubTranslationTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmetalicetin/Desktop/Swift/AppsHubTranslationTask/AppsHubTranslationTask/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "CC2DBBD4-45DF-4889-B424-01299C71CC68 - fedc383ae8b00a31"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppsHubTranslationTask.KeyboardObserver.$isKeyboardVisible.getter : Combine.Published&lt;Swift.Bool&gt;.Publisher"
+                  moduleName = "AppsHubTranslationTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmetalicetin/Desktop/Swift/AppsHubTranslationTask/AppsHubTranslationTask/AppsHubTranslationTask/Supporters/KeyboardObserver.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "CC2DBBD4-45DF-4889-B424-01299C71CC68 - d28ec90ac01ce03"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppsHubTranslationTask.KeyboardObserver.$isKeyboardVisible.setter : Combine.Published&lt;Swift.Bool&gt;.Publisher"
+                  moduleName = "AppsHubTranslationTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmetalicetin/Desktop/Swift/AppsHubTranslationTask/AppsHubTranslationTask/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "CC2DBBD4-45DF-4889-B424-01299C71CC68 - 7b23d62697edff0c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppsHubTranslationTask.KeyboardObserver.$isKeyboardVisible.modify : Combine.Published&lt;Swift.Bool&gt;.Publisher"
+                  moduleName = "AppsHubTranslationTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmetalicetin/Desktop/Swift/AppsHubTranslationTask/AppsHubTranslationTask/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "CC2DBBD4-45DF-4889-B424-01299C71CC68 - 730ee66a096c75a5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppsHubTranslationTask.KeyboardObserver.$isKeyboardVisible.modify : Combine.Published&lt;Swift.Bool&gt;.Publisher with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "AppsHubTranslationTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmetalicetin/Desktop/Swift/AppsHubTranslationTask/AppsHubTranslationTask/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CFD50BD3-6CAD-4F65-9FED-9F7D96EBCD08"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppsHubTranslationTask/Supporters/KeyboardObserver.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "init()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "664CF7B4-387E-47B1-837A-6F05BC2BCCEB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppsHubTranslationTask/Supporters/KeyboardObserver.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "init()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CE8F4F91-F2CD-4093-AD54-C7343C07BFBD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppsHubTranslationTask/Supporters/KeyboardObserver.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "keyboardWillShow(notification:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F58E232F-FA71-41F0-8379-D11A72676F64"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppsHubTranslationTask/Supporters/KeyboardObserver.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "keyboardWillHide(notification:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
