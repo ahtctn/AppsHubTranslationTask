@@ -221,5 +221,132 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "01DB25EA-23B5-4275-A2FE-A129044E9041"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppsHubTranslationTask/View/Subviews/TextViewSubviews/TranslateButtonView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "01DB25EA-23B5-4275-A2FE-A129044E9041 - a2dd0ec64d731056"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in AppsHubTranslationTask.TranslateButtonView.body.getter : some"
+                  moduleName = "AppsHubTranslationTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmetalicetin/Desktop/Swift/AppsHubTranslationTask/AppsHubTranslationTask/AppsHubTranslationTask/View/Subviews/TextViewSubviews/TranslateButtonView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "01DB25EA-23B5-4275-A2FE-A129044E9041 - a2dd0ec64d731056"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in AppsHubTranslationTask.TranslateButtonView.body.getter : some"
+                  moduleName = "AppsHubTranslationTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmetalicetin/Desktop/Swift/AppsHubTranslationTask/AppsHubTranslationTask/AppsHubTranslationTask/View/Subviews/TextViewSubviews/TranslateButtonView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "01DB25EA-23B5-4275-A2FE-A129044E9041 - a2dd0ec64d731056"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in AppsHubTranslationTask.TranslateButtonView.body.getter : some"
+                  moduleName = "AppsHubTranslationTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmetalicetin/Desktop/Swift/AppsHubTranslationTask/AppsHubTranslationTask/AppsHubTranslationTask/View/Subviews/TextViewSubviews/TranslateButtonView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "152">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BE7D9F45-83CA-4193-8FD6-45D324A80E17"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppsHubTranslationTask/View/Subviews/TextView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "92542EC2-9662-44F9-9BF0-0CCF17917E81"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppsHubTranslationTask/View/Subviews/TextView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "92542EC2-9662-44F9-9BF0-0CCF17917E81 - 591997aaac2d32be"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(AppsHubTranslationTask.BaseLanguageButtonView, AppsHubTranslationTask.SwitchLanguagesButtonView, AppsHubTranslationTask.TargetLanguageButtonView, Swift.Optional&lt;SwiftUI.NavigationLink&lt;AppsHubTranslationTask.TranslateButtonView, AppsHubTranslationTask.TranslationResultView&gt;&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, Swift.Optional&lt;AppsHubTranslationTask.OfflineModeView&gt;)&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.toolbar&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.ToolbarContent&gt;(content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in AppsHubTranslationTask.TextView.body.getter : some"
+                  moduleName = "AppsHubTranslationTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmetalicetin/Desktop/Swift/AppsHubTranslationTask/AppsHubTranslationTask/AppsHubTranslationTask/View/Subviews/TextView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "1616">
+               </Location>
+               <Location
+                  uuid = "92542EC2-9662-44F9-9BF0-0CCF17917E81 - 591997aaac2d32be"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(AppsHubTranslationTask.BaseLanguageButtonView, AppsHubTranslationTask.SwitchLanguagesButtonView, AppsHubTranslationTask.TargetLanguageButtonView, Swift.Optional&lt;SwiftUI.NavigationLink&lt;AppsHubTranslationTask.TranslateButtonView, AppsHubTranslationTask.TranslationResultView&gt;&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, Swift.Optional&lt;AppsHubTranslationTask.OfflineModeView&gt;)&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.toolbar&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.ToolbarContent&gt;(content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in AppsHubTranslationTask.TextView.body.getter : some"
+                  moduleName = "AppsHubTranslationTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmetalicetin/Desktop/Swift/AppsHubTranslationTask/AppsHubTranslationTask/AppsHubTranslationTask/View/Subviews/TextView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "1620">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

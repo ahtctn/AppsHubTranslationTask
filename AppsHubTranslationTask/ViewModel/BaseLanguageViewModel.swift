@@ -81,6 +81,10 @@ class BaseLanguageViewModel: ObservableObject {
     func updateSelectedLanguage(_ language: LanguageModel?) {
         selectedLanguage = language
     }
+    
+    func reset() {
+        selectedLanguage = languages[25]
+    }
 }
 
 

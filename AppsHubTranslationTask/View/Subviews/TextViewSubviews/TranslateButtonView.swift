@@ -14,8 +14,8 @@ struct TranslateButtonView: View {
     
     var body: some View {
         Button {
-            //focusedField.wrappedValue = false
-            shouldNavigate = true
+            focusedField.wrappedValue = false
+            shouldNavigate.toggle()
         } label: {
             ZStack(alignment: .center) {
                 Circle()

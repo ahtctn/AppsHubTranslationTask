@@ -26,25 +26,35 @@ struct TextView: View {
         NavigationView {
             VStack(alignment: .center, spacing: focusedField ? 8: 16) {
                 CustomTextFieldView(text: $textFieldText, isTextNil: $isTextNil, focusedField: $focusedField)
+                    .padding(.leading, 20)
+                    
+    
+                //MARK: Select languages view
                 HStack(alignment: .center) {
                     BaseLanguageButtonView(viewModel: baseVM, focusedField: $focusedField, selectedLanguage: $baseVM.selectedLanguage)
                     SwitchLanguagesButtonView(isReversed: $isReversed, baseViewModel: baseVM, targetViewModel: targetVM)
                     TargetLanguageButtonView(viewModel: targetVM, focusedField: $focusedField, selectedLanguage: $targetVM.selectedLanguage)
-                    
-                    if focusedField {
-                        NavigationLink(destination: TranslationResultView(baseLanguage: baseVM.selectedLanguage?.name ?? "English", targetLanguage: targetVM.selectedLanguage?.name ?? "Spanish"), isActive: $shouldNavigate) {
-                            TranslateButtonView(isTextNil: $isTextNil, focusedField: $focusedField, shouldNavigate: $shouldNavigate)
+                 
+                        NavigationLink(destination:
+                                        TranslationResultView(baseLanguage: baseVM.selectedLanguage?.name ?? "English", targetLanguage: targetVM.selectedLanguage?.name ?? "Spanish", textToTranslate: $textFieldText), isActive: $shouldNavigate)
+                        {
+                            if focusedField {                             TranslateButtonView(isTextNil: $isTextNil, focusedField: $focusedField, shouldNavigate: $shouldNavigate)
+                            }
                         }
-                    }
+                    
                 }
                 
                 if !focusedField {
                     OfflineModeView(isOfflineModeOn: $isOfflineModeOn, height: 60.01, fontSize: 16)
                 }
+                
+                Spacer()
+                
             }
             
             .navigationTitle("Translate iOS")
             .navigationBarTitleDisplayMode(.inline)
+    
             .toolbar {
                 if focusedField {
                     ToolbarItem(placement: .topBarLeading) {
@@ -68,9 +78,13 @@ struct TextView: View {
                     }
                 }
                 ToolbarItem(placement: .topBarTrailing) {
-                    NavHistoryButtonView(isHistorySentecesTapped: $isHistorySentecesTapped)
+                    NavFavButtonView(isFavoriteSentecesTapped: $isFavoriteSentecesTapped)
                 }
             }
+        }
+        .onAppear {
+            textFieldText = ""
+            isTextNil = true
         }
     }
 }

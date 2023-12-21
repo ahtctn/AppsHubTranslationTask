@@ -36,6 +36,7 @@
 		7B7212F32B33C36D00C4C78B /* BaseLanguageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7212F22B33C36D00C4C78B /* BaseLanguageView.swift */; };
 		7B7212F52B33C3A500C4C78B /* TargetLanguageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7212F42B33C3A500C4C78B /* TargetLanguageView.swift */; };
 		7B7212F72B33C5B600C4C78B /* RateTranslationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7212F62B33C5B600C4C78B /* RateTranslationView.swift */; };
+		7B7212F92B340D0500C4C78B /* RetaButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7212F82B340D0500C4C78B /* RetaButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +70,7 @@
 		7B7212F22B33C36D00C4C78B /* BaseLanguageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseLanguageView.swift; sourceTree = "<group>"; };
 		7B7212F42B33C3A500C4C78B /* TargetLanguageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetLanguageView.swift; sourceTree = "<group>"; };
 		7B7212F62B33C5B600C4C78B /* RateTranslationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateTranslationView.swift; sourceTree = "<group>"; };
+		7B7212F82B340D0500C4C78B /* RetaButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetaButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -242,6 +244,7 @@
 				7B7212F42B33C3A500C4C78B /* TargetLanguageView.swift */,
 				7B7212F22B33C36D00C4C78B /* BaseLanguageView.swift */,
 				7B7212F62B33C5B600C4C78B /* RateTranslationView.swift */,
+				7B7212F82B340D0500C4C78B /* RetaButtonView.swift */,
 			);
 			path = TranslationResultView;
 			sourceTree = "<group>";
@@ -330,6 +333,7 @@
 				7B33225E2B333FB200232580 /* LanguageSelectionView.swift in Sources */,
 				7B7212EA2B33B49500C4C78B /* BaseLanguageButtonView.swift in Sources */,
 				7B3322632B334F6A00232580 /* TranslateButtonView.swift in Sources */,
+				7B7212F92B340D0500C4C78B /* RetaButtonView.swift in Sources */,
 				7B3322372B33149D00232580 /* HomeView.swift in Sources */,
 				7B7212F12B33BB0F00C4C78B /* TranslationResultView.swift in Sources */,
 				7B33225B2B333D0600232580 /* SwitchLanguagesButtonView.swift in Sources */,

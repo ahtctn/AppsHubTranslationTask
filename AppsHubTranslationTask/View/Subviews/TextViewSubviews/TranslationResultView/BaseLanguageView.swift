@@ -9,6 +9,7 @@ import SwiftUI
 
 struct BaseLanguageView: View {
     var baseLanguage: String
+    @Binding var textToTranslate: String
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
             Text(baseLanguage)
@@ -16,7 +17,7 @@ struct BaseLanguageView: View {
                 .foregroundStyle(Color(Constants.Colors.secondaryColor))
                 .fontWeight(.bold)
             
-            Text("Hello")
+            Text(textToTranslate)
                 .font(.custom("SFProText", size: 32))
                 .foregroundStyle(Color.black)
                 .fontWeight(.bold)
@@ -43,5 +44,5 @@ struct BaseLanguageView: View {
 }
 
 #Preview {
-    BaseLanguageView(baseLanguage: "English")
+    BaseLanguageView(baseLanguage: "English", textToTranslate: .constant("Hello"))
 }

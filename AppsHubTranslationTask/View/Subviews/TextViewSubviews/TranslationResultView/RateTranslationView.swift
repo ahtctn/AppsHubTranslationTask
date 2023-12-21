@@ -9,6 +9,8 @@ import SwiftUI
 
 struct RateTranslationView: View {
     @Binding var isLiked: Bool
+    @Binding var isDisliked: Bool
+    @Binding var showRateAlert: Bool
     var body: some View {
         HStack {
             Image(systemName: "star.fill")
@@ -19,22 +21,8 @@ struct RateTranslationView: View {
                 .fontWeight(.bold)
             Spacer()
             HStack {
-                Button { 
-                    isLiked = true
-                } label: {
-                    //MARK: THUMBSUP THUMBSDOWN KISMINDAN DEVAM EDİLECEK.
-                    Image(systemName: isLiked ? "hand.thumbsup.fill" : "hands.thumbsup")
-                        .foregroundStyle(Color(Constants.Colors.blueColor))
-                }
-                
-                Button { 
-                    isLiked = false
-                } label: {
-                    Image(systemName: isLiked ? "hand.thumbsdown.fill" : "hand.thumbsdown")
-                        .foregroundStyle(Color(Constants.Colors.blueColor))
-                }
-                
-                
+                RateButtonView(systemName: "hand.thumbsup", filledSystemName: "hand.thumbsup.fill", isSelected: $isLiked, showRateAlert: $showRateAlert)
+                RateButtonView(systemName: "hand.thumbsdown", filledSystemName: "hand.thumbdown.fill", isSelected: $isDisliked, showRateAlert: $showRateAlert)
             }
             
         }
@@ -46,9 +34,11 @@ struct RateTranslationView: View {
         )
         .frame(width: 315, height: 48, alignment: .center)
         
+        
+        
     }
 }
 
 #Preview {
-    RateTranslationView(isLiked: .constant(true))
+    RateTranslationView(isLiked: .constant(true), isDisliked: .constant(false), showRateAlert: .constant(true))
 }
