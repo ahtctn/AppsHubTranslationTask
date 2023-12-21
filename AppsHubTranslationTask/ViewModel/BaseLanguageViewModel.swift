@@ -7,7 +7,8 @@
 
 import Foundation
 
-class LanguageViewModel: ObservableObject {
+class BaseLanguageViewModel: ObservableObject {
+    @Published var selectedLanguage: LanguageModel?
     
     let languages: [LanguageModel] = [
         LanguageModel(name: "Afrikaans", isDownloaded: true),
@@ -76,8 +77,12 @@ class LanguageViewModel: ObservableObject {
         LanguageModel(name: "Urdu", isDownloaded: false),
         LanguageModel(name: "Uyghur", isDownloaded: true),
     ]
+    
+    func updateSelectedLanguage(_ language: LanguageModel?) {
+        selectedLanguage = language
+    }
 }
 
-  
+
 
 

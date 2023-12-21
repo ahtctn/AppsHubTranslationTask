@@ -11,8 +11,6 @@ import Combine
 struct CustomTextFieldView: View {
     @Binding var text: String
     @Binding var isTextNil: Bool
-//    @Binding var isTextFieldFocusedBool: Bool
-    @ObservedObject var keyboardObserver = KeyboardObserver()
     var focusedField: FocusState<Bool>.Binding
 
     
@@ -43,7 +41,7 @@ struct CustomTextFieldView: View {
         }
       }
     }
-
-    
 }
+
+
 

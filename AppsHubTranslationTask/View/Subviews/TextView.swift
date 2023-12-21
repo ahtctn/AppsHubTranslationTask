@@ -14,32 +14,32 @@ struct TextView: View {
     @State private var isReversed: Bool = false
     @State private var isOfflineModeOn: Bool = false
     @State private var isTextNil: Bool = true
-    @ObservedObject var keyboardObserver = KeyboardObserver()
+    
     @FocusState var focusedField: Bool
     
-    @ObservedObject var viewModel = LanguageViewModel()
+    @ObservedObject var baseVM = BaseLanguageViewModel()
+    @ObservedObject var targetVM = TargetLanguageViewModel()
+    
+    @State private var shouldNavigate = false
     
     var body: some View {
         NavigationView {
-            VStack(alignment: .center, spacing: focusedField ? 8: 24) {
+            VStack(alignment: .center, spacing: focusedField ? 8: 16) {
                 CustomTextFieldView(text: $textFieldText, isTextNil: $isTextNil, focusedField: $focusedField)
-                HStack {
-                    //LanguageSelectionView(isReversed: $isReversed, isTextNil: $isTextNil)
+                HStack(alignment: .center) {
+                    BaseLanguageButtonView(viewModel: baseVM, focusedField: $focusedField, selectedLanguage: $baseVM.selectedLanguage)
+                    SwitchLanguagesButtonView(isReversed: $isReversed, baseViewModel: baseVM, targetViewModel: targetVM)
+                    TargetLanguageButtonView(viewModel: targetVM, focusedField: $focusedField, selectedLanguage: $targetVM.selectedLanguage)
                     
-                    HStack {
-                        ChooseLanguageButtonView(languageName: isReversed ? viewModel.languages[1].name : viewModel.languages[2].name)
-                        ChangeLanguagesButtonView(isReversed: $isReversed)
-                        ChooseLanguageButtonView(languageName: isReversed ? viewModel.languages[2].name : viewModel.languages[1].name)
-                        if focusedField {
-                            TranslateButtonView(isTextNil: $isTextNil, focusedField: $focusedField)
-                            
+                    if focusedField {
+                        NavigationLink(destination: TranslationResultView(baseLanguage: baseVM.selectedLanguage?.name ?? "English", targetLanguage: targetVM.selectedLanguage?.name ?? "Spanish"), isActive: $shouldNavigate) {
+                            TranslateButtonView(isTextNil: $isTextNil, focusedField: $focusedField, shouldNavigate: $shouldNavigate)
                         }
-                        
                     }
                 }
                 
                 if !focusedField {
-                    OfflineModeView(isOfflineModeOn: $isOfflineModeOn)
+                    OfflineModeView(isOfflineModeOn: $isOfflineModeOn, height: 60.01, fontSize: 16)
                 }
             }
             

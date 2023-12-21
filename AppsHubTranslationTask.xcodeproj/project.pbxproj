@@ -19,16 +19,23 @@
 		7B33224F2B331E1800232580 /* NavHistoryButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B33224E2B331E1800232580 /* NavHistoryButtonView.swift */; };
 		7B3322522B33221700232580 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3322512B33221700232580 /* Constants.swift */; };
 		7B3322572B33266600232580 /* CustomTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3322562B33266600232580 /* CustomTextFieldView.swift */; };
-		7B3322592B333BCB00232580 /* ChooseLanguageButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3322582B333BCB00232580 /* ChooseLanguageButtonView.swift */; };
-		7B33225B2B333D0600232580 /* ChangeLanguagesButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B33225A2B333D0600232580 /* ChangeLanguagesButtonView.swift */; };
+		7B33225B2B333D0600232580 /* SwitchLanguagesButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B33225A2B333D0600232580 /* SwitchLanguagesButtonView.swift */; };
 		7B33225E2B333FB200232580 /* LanguageSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B33225D2B333FB200232580 /* LanguageSelectionView.swift */; };
 		7B3322602B33424C00232580 /* OfflineModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B33225F2B33424C00232580 /* OfflineModeView.swift */; };
 		7B3322632B334F6A00232580 /* TranslateButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3322622B334F6A00232580 /* TranslateButtonView.swift */; };
 		7B3322652B335E4700232580 /* LanguageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3322642B335E4700232580 /* LanguageModel.swift */; };
-		7B3322672B335E7000232580 /* LanguageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3322662B335E7000232580 /* LanguageViewModel.swift */; };
+		7B3322672B335E7000232580 /* BaseLanguageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3322662B335E7000232580 /* BaseLanguageViewModel.swift */; };
 		7B3322692B3360E300232580 /* LanguageListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3322682B3360E300232580 /* LanguageListView.swift */; };
 		7B7212E02B3369FF00C4C78B /* LanguageListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7212DF2B3369FF00C4C78B /* LanguageListCellView.swift */; };
-		7B7212E22B336E9600C4C78B /* KeyboardObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7212E12B336E9600C4C78B /* KeyboardObserver.swift */; };
+		7B7212E62B33AEDC00C4C78B /* DetectLanguageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7212E52B33AEDC00C4C78B /* DetectLanguageView.swift */; };
+		7B7212E82B33AF0100C4C78B /* SearchLanguagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7212E72B33AF0100C4C78B /* SearchLanguagesView.swift */; };
+		7B7212EA2B33B49500C4C78B /* BaseLanguageButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7212E92B33B49500C4C78B /* BaseLanguageButtonView.swift */; };
+		7B7212EC2B33B7A700C4C78B /* TargetLanguageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7212EB2B33B7A700C4C78B /* TargetLanguageViewModel.swift */; };
+		7B7212EE2B33B82200C4C78B /* TargetLanguageButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7212ED2B33B82200C4C78B /* TargetLanguageButtonView.swift */; };
+		7B7212F12B33BB0F00C4C78B /* TranslationResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7212F02B33BB0F00C4C78B /* TranslationResultView.swift */; };
+		7B7212F32B33C36D00C4C78B /* BaseLanguageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7212F22B33C36D00C4C78B /* BaseLanguageView.swift */; };
+		7B7212F52B33C3A500C4C78B /* TargetLanguageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7212F42B33C3A500C4C78B /* TargetLanguageView.swift */; };
+		7B7212F72B33C5B600C4C78B /* RateTranslationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7212F62B33C5B600C4C78B /* RateTranslationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,16 +52,23 @@
 		7B33224E2B331E1800232580 /* NavHistoryButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavHistoryButtonView.swift; sourceTree = "<group>"; };
 		7B3322512B33221700232580 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		7B3322562B33266600232580 /* CustomTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldView.swift; sourceTree = "<group>"; };
-		7B3322582B333BCB00232580 /* ChooseLanguageButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseLanguageButtonView.swift; sourceTree = "<group>"; };
-		7B33225A2B333D0600232580 /* ChangeLanguagesButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeLanguagesButtonView.swift; sourceTree = "<group>"; };
+		7B33225A2B333D0600232580 /* SwitchLanguagesButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchLanguagesButtonView.swift; sourceTree = "<group>"; };
 		7B33225D2B333FB200232580 /* LanguageSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageSelectionView.swift; sourceTree = "<group>"; };
 		7B33225F2B33424C00232580 /* OfflineModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineModeView.swift; sourceTree = "<group>"; };
 		7B3322622B334F6A00232580 /* TranslateButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateButtonView.swift; sourceTree = "<group>"; };
 		7B3322642B335E4700232580 /* LanguageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageModel.swift; sourceTree = "<group>"; };
-		7B3322662B335E7000232580 /* LanguageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageViewModel.swift; sourceTree = "<group>"; };
+		7B3322662B335E7000232580 /* BaseLanguageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseLanguageViewModel.swift; sourceTree = "<group>"; };
 		7B3322682B3360E300232580 /* LanguageListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageListView.swift; sourceTree = "<group>"; };
 		7B7212DF2B3369FF00C4C78B /* LanguageListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageListCellView.swift; sourceTree = "<group>"; };
-		7B7212E12B336E9600C4C78B /* KeyboardObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardObserver.swift; sourceTree = "<group>"; };
+		7B7212E52B33AEDC00C4C78B /* DetectLanguageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectLanguageView.swift; sourceTree = "<group>"; };
+		7B7212E72B33AF0100C4C78B /* SearchLanguagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchLanguagesView.swift; sourceTree = "<group>"; };
+		7B7212E92B33B49500C4C78B /* BaseLanguageButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseLanguageButtonView.swift; sourceTree = "<group>"; };
+		7B7212EB2B33B7A700C4C78B /* TargetLanguageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetLanguageViewModel.swift; sourceTree = "<group>"; };
+		7B7212ED2B33B82200C4C78B /* TargetLanguageButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetLanguageButtonView.swift; sourceTree = "<group>"; };
+		7B7212F02B33BB0F00C4C78B /* TranslationResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationResultView.swift; sourceTree = "<group>"; };
+		7B7212F22B33C36D00C4C78B /* BaseLanguageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseLanguageView.swift; sourceTree = "<group>"; };
+		7B7212F42B33C3A500C4C78B /* TargetLanguageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetLanguageView.swift; sourceTree = "<group>"; };
+		7B7212F62B33C5B600C4C78B /* RateTranslationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateTranslationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +140,8 @@
 		7B33223A2B33151400232580 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				7B3322662B335E7000232580 /* LanguageViewModel.swift */,
+				7B3322662B335E7000232580 /* BaseLanguageViewModel.swift */,
+				7B7212EB2B33B7A700C4C78B /* TargetLanguageViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -162,15 +177,17 @@
 		7B3322462B331D6200232580 /* TextViewSubviews */ = {
 			isa = PBXGroup;
 			children = (
+				7B7212EF2B33BB0600C4C78B /* TranslationResultView */,
+				7B7212E32B33AEB300C4C78B /* SelectLanguageView */,
 				7B3322492B331D7A00232580 /* NavigationBarButtonItemsViews */,
 				7B3322562B33266600232580 /* CustomTextFieldView.swift */,
-				7B3322582B333BCB00232580 /* ChooseLanguageButtonView.swift */,
-				7B33225A2B333D0600232580 /* ChangeLanguagesButtonView.swift */,
+				7B33225A2B333D0600232580 /* SwitchLanguagesButtonView.swift */,
 				7B33225D2B333FB200232580 /* LanguageSelectionView.swift */,
 				7B33225F2B33424C00232580 /* OfflineModeView.swift */,
 				7B3322622B334F6A00232580 /* TranslateButtonView.swift */,
-				7B3322682B3360E300232580 /* LanguageListView.swift */,
 				7B7212DE2B3369E800C4C78B /* LanguageListCellView */,
+				7B7212E92B33B49500C4C78B /* BaseLanguageButtonView.swift */,
+				7B7212ED2B33B82200C4C78B /* TargetLanguageButtonView.swift */,
 			);
 			path = TextViewSubviews;
 			sourceTree = "<group>";
@@ -188,7 +205,6 @@
 			isa = PBXGroup;
 			children = (
 				7B3322512B33221700232580 /* Constants.swift */,
-				7B7212E12B336E9600C4C78B /* KeyboardObserver.swift */,
 			);
 			path = Supporters;
 			sourceTree = "<group>";
@@ -199,6 +215,35 @@
 				7B7212DF2B3369FF00C4C78B /* LanguageListCellView.swift */,
 			);
 			path = LanguageListCellView;
+			sourceTree = "<group>";
+		};
+		7B7212E32B33AEB300C4C78B /* SelectLanguageView */ = {
+			isa = PBXGroup;
+			children = (
+				7B3322682B3360E300232580 /* LanguageListView.swift */,
+				7B7212E72B33AF0100C4C78B /* SearchLanguagesView.swift */,
+				7B7212E42B33AEBF00C4C78B /* Subviews */,
+			);
+			path = SelectLanguageView;
+			sourceTree = "<group>";
+		};
+		7B7212E42B33AEBF00C4C78B /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				7B7212E52B33AEDC00C4C78B /* DetectLanguageView.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		7B7212EF2B33BB0600C4C78B /* TranslationResultView */ = {
+			isa = PBXGroup;
+			children = (
+				7B7212F02B33BB0F00C4C78B /* TranslationResultView.swift */,
+				7B7212F42B33C3A500C4C78B /* TargetLanguageView.swift */,
+				7B7212F22B33C36D00C4C78B /* BaseLanguageView.swift */,
+				7B7212F62B33C5B600C4C78B /* RateTranslationView.swift */,
+			);
+			path = TranslationResultView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,23 +319,30 @@
 				7B33224D2B331DA300232580 /* NavFavButtonView.swift in Sources */,
 				7B3322412B33153700232580 /* VoiceView.swift in Sources */,
 				7B33223D2B33152F00232580 /* TextView.swift in Sources */,
-				7B3322672B335E7000232580 /* LanguageViewModel.swift in Sources */,
+				7B3322672B335E7000232580 /* BaseLanguageViewModel.swift in Sources */,
+				7B7212E82B33AF0100C4C78B /* SearchLanguagesView.swift in Sources */,
+				7B7212EE2B33B82200C4C78B /* TargetLanguageButtonView.swift in Sources */,
 				7B3322652B335E4700232580 /* LanguageModel.swift in Sources */,
 				7B7212E02B3369FF00C4C78B /* LanguageListCellView.swift in Sources */,
 				7B3322572B33266600232580 /* CustomTextFieldView.swift in Sources */,
+				7B7212E62B33AEDC00C4C78B /* DetectLanguageView.swift in Sources */,
 				7B33224F2B331E1800232580 /* NavHistoryButtonView.swift in Sources */,
 				7B33225E2B333FB200232580 /* LanguageSelectionView.swift in Sources */,
+				7B7212EA2B33B49500C4C78B /* BaseLanguageButtonView.swift in Sources */,
 				7B3322632B334F6A00232580 /* TranslateButtonView.swift in Sources */,
-				7B7212E22B336E9600C4C78B /* KeyboardObserver.swift in Sources */,
 				7B3322372B33149D00232580 /* HomeView.swift in Sources */,
-				7B33225B2B333D0600232580 /* ChangeLanguagesButtonView.swift in Sources */,
+				7B7212F12B33BB0F00C4C78B /* TranslationResultView.swift in Sources */,
+				7B33225B2B333D0600232580 /* SwitchLanguagesButtonView.swift in Sources */,
 				7B3322432B33153C00232580 /* SettingsView.swift in Sources */,
 				7B3322292B330FA400232580 /* AppsHubTranslationTaskApp.swift in Sources */,
+				7B7212F52B33C3A500C4C78B /* TargetLanguageView.swift in Sources */,
+				7B7212EC2B33B7A700C4C78B /* TargetLanguageViewModel.swift in Sources */,
 				7B33223F2B33153300232580 /* CameraView.swift in Sources */,
 				7B3322692B3360E300232580 /* LanguageListView.swift in Sources */,
-				7B3322592B333BCB00232580 /* ChooseLanguageButtonView.swift in Sources */,
 				7B3322522B33221700232580 /* Constants.swift in Sources */,
 				7B3322602B33424C00232580 /* OfflineModeView.swift in Sources */,
+				7B7212F72B33C5B600C4C78B /* RateTranslationView.swift in Sources */,
+				7B7212F32B33C36D00C4C78B /* BaseLanguageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

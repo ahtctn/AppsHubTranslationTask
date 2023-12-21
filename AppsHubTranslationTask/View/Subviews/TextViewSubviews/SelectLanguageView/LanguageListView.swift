@@ -15,38 +15,24 @@ struct LanguageListView: View {
         LanguageModelList.mList[2],
     ]
     
-    @State private var selectedLanguage: LanguageModel?
+    @Binding var selectedLanguage: LanguageModel?
+    @Binding var isShowLanguageListPresented: Bool
+    @ObservedObject var viewModel = BaseLanguageViewModel()
+    
     @State private var searchText: String = ""
     
     var body: some View {
         NavigationView {
             VStack {
                 List {
-                    Section {
-                        HStack {
-                            Image(systemName: "magnifyingglass")
-                                .foregroundStyle(Color(Constants.Colors.secondaryColor))
-                            TextField("Search Languages", text: $searchText)
-                        }
-                        .listRowBackground(Color(Constants.Colors.listRowBackgroundColor))
-                    }
-                    
-                    
-                    Section {
-                        HStack {
-                            Text("Detect Language")
-                            
-                            Spacer()
-                            Image(systemName: "sparkles")
-                                .foregroundStyle(Color(Constants.Colors.secondaryColor))
-                        }
-                        .listRowBackground(Color(Constants.Colors.listRowBackgroundColor))
-                    }
+                    SearchLanguagesView(searchText: $searchText)
+                    DetectLanguageView()
                     
                     Section("Recent Languages") {
                         ForEach(recentLanguages, id: \.name) { language in
                             Button {
                                 selectedLanguage = language
+                                isShowLanguageListPresented = false
                             } label: {
                                 HStack {
                                     Text(language.name)
@@ -68,6 +54,7 @@ struct LanguageListView: View {
                         ForEach(languages, id: \.name) { language in
                             Button {
                                 selectedLanguage = language
+                                isShowLanguageListPresented = false
                             } label: {
                                 HStack {
                                     Text(language.name)
@@ -90,16 +77,24 @@ struct LanguageListView: View {
                 .scrollContentBackground(.hidden)
                 
             }
+            .onDisappear {
+                //viewModel.selectedLanguage = selectedLanguage
+                viewModel.updateSelectedLanguage(selectedLanguage)
+            }
             .toolbar {
-                Button("Add") {}
+                Button {
+                    
+                } label: {
+                    Image("cancelButton")
+                }
             }
             .navigationTitle("Translate from")
+            .navigationBarTitleDisplayMode(.inline)
         }
-        
         
     }
 }
 
 #Preview {
-    LanguageListView(languages: LanguageModelList.mList)
+    LanguageListView(languages: LanguageModelList.mList, selectedLanguage: .constant(LanguageModelList.mList[0]), isShowLanguageListPresented: .constant(true))
 }
